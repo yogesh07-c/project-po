@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Order</title>
+  <link rel="stylesheet" href="/order.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Create Order</h1>
+  </header>
+  <main class="container">
+    <form class="order-form">
+      <label for="product-name">Product Name:</label>
+      <input type="text" id="product-name" name="product-name" placeholder="Enter product name" required>
+
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" name="quantity" placeholder="Enter quantity" required>
+
+      <label for="address">Shipping Address:</label>
+      <textarea id="address" name="address" placeholder="Enter shipping address" rows="4" required></textarea>
+
+      <button type="submit" class="submit-btn">Place Order</button>
+    </form>
+  </main>
+  <footer class="footer">
+    <p style="color: whitesmoke;">&copy; 2024 Your Company. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+
+
